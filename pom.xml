@@ -92,6 +92,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql-connector-java.version}</version>
         </dependency>
+	 <!-- 导入mysql连接包 -->
 	
 	</dependencies>
 </project>
