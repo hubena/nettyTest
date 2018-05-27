@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hubena.mybatis.interfaces.QueryStudentMapper">
+
+	<sql id="where">
+		<if test="requestStudent.id!=null and requestStudent.id!=''">
+			and tb.id = #{requestStudent.id}
+		</if>
+		<if test="requestStudent.name!=null and requestStudent.name!=''">
+			and tb.name = #{requestStudent.name}
+		</if>
+		<if test="requestStudent.age!=null and requestStudent.age!=''">
+			and tb.age = #{requestStudent.age}
+		</if>
+		<if test="requestStudent.height!=null and requestStudent.height!=''">
+			and tb.height = #{requestStudent.height}
+		</if>
+	</sql>
+
+	<select id="findList" resultType="studentInfo" >
+		select * from test1.student as tb where 1=1 
+		<include refid="where"></include> 
+		order by ${queryPageData.sortField} ${queryPageData.sortType} 
+		limit ${queryPageData.offset},${queryPageData.endRow}
+		
+	</select>
+	
+	
+	<select id="findListCount" resultType="java.lang.Long" >
+		select   
+		   count(*)
+		from test1.student as tb
+		where 1=1
+		<include refid="where"></include>
+	</select>
+	
+<!-- 	<select id="findList" resultType="com.threeweidu.pay.entity.AgentDeductRecord" >
+		SELECT *
+		FROM
+		(
+		select   
+		    ROW_NUMBER() OVER (ORDER BY ${page.sortField} ${page.sortType}) AS row,
+		    adr.deductId,adr.deductMoney,adr.deductReason,adr.createTime,adr.createMan,
+		    adr.auditState,adr.auditHuman,adr.auditTime,adr.auditReason,adr.agentId,
+		    adr.deductionState
+		from AgentDeductRecord adr
+		where 1=1
+		<include refid="where"></include>
+		)  t
+		<![CDATA[ WHERE  t.row > #{page.offset}  AND  t.row <= #{page.endRow} ]]>    
+		
+	</select> -->
+	
+</mapper>  

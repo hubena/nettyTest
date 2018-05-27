@@ -1,0 +1,142 @@
+2018-05-27 21:54:31,647 - Using Log4J as the default logging framework
+2018-05-27 21:54:31,653 - -Dio.netty.eventLoopThreads: 8
+2018-05-27 21:54:31,699 - java.nio.Buffer.address: available
+2018-05-27 21:54:31,699 - sun.misc.Unsafe.theUnsafe: available
+2018-05-27 21:54:31,699 - sun.misc.Unsafe.copyMemory: available
+2018-05-27 21:54:31,699 - java.nio.Bits.unaligned: true
+2018-05-27 21:54:31,700 - Platform: Windows
+2018-05-27 21:54:31,700 - Java version: 8
+2018-05-27 21:54:31,700 - -Dio.netty.noUnsafe: false
+2018-05-27 21:54:31,700 - sun.misc.Unsafe: available
+2018-05-27 21:54:31,701 - -Dio.netty.noJavassist: false
+2018-05-27 21:54:31,702 - Javassist: unavailable
+2018-05-27 21:54:31,702 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-05-27 21:54:31,703 - -Dio.netty.tmpdir: C:\Users\Zengxb\AppData\Local\Temp (java.io.tmpdir)
+2018-05-27 21:54:31,703 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-05-27 21:54:31,703 - -Dio.netty.noPreferDirect: false
+2018-05-27 21:54:31,704 - -Dio.netty.noKeySetOptimization: false
+2018-05-27 21:54:31,704 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-05-27 21:54:32,683 - -Dio.netty.processId: 2944 (auto-detected)
+2018-05-27 21:54:32,782 - -Dio.netty.machineId: c8:d3:ff:ff:fe:d3:a4:b8 (auto-detected)
+2018-05-27 21:54:32,783 - -Dio.netty.initialSeedUniquifier: 0x659a8a524f696fa3 (took 17 ms)
+2018-05-27 21:54:32,821 - -Dio.netty.allocator.numHeapArenas: 4
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.numDirectArenas: 4
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.pageSize: 8192
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.maxOrder: 11
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.chunkSize: 16777216
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.smallCacheSize: 256
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.normalCacheSize: 64
+2018-05-27 21:54:32,822 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-05-27 21:54:32,823 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-05-27 21:54:32,828 - -Dio.netty.allocator.type: pooled
+2018-05-27 21:54:32,828 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-05-27 21:54:32,916 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-05-27 21:54:32,916 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2018-05-27 21:54:50,656 - Using Log4J as the default logging framework
+2018-05-27 21:54:50,662 - -Dio.netty.eventLoopThreads: 8
+2018-05-27 21:54:50,708 - java.nio.Buffer.address: available
+2018-05-27 21:54:50,708 - sun.misc.Unsafe.theUnsafe: available
+2018-05-27 21:54:50,709 - sun.misc.Unsafe.copyMemory: available
+2018-05-27 21:54:50,709 - java.nio.Bits.unaligned: true
+2018-05-27 21:54:50,709 - Platform: Windows
+2018-05-27 21:54:50,710 - Java version: 8
+2018-05-27 21:54:50,710 - -Dio.netty.noUnsafe: false
+2018-05-27 21:54:50,710 - sun.misc.Unsafe: available
+2018-05-27 21:54:50,710 - -Dio.netty.noJavassist: false
+2018-05-27 21:54:50,711 - Javassist: unavailable
+2018-05-27 21:54:50,711 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-05-27 21:54:50,712 - -Dio.netty.tmpdir: C:\Users\Zengxb\AppData\Local\Temp (java.io.tmpdir)
+2018-05-27 21:54:50,712 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-05-27 21:54:50,712 - -Dio.netty.noPreferDirect: false
+2018-05-27 21:54:50,713 - -Dio.netty.noKeySetOptimization: false
+2018-05-27 21:54:50,713 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-05-27 21:54:50,962 - -Dio.netty.processId: 16060 (auto-detected)
+2018-05-27 21:54:51,048 - -Dio.netty.machineId: c8:d3:ff:ff:fe:d3:a4:b8 (auto-detected)
+2018-05-27 21:54:51,050 - -Dio.netty.initialSeedUniquifier: 0x5337aa0e7bdc2973 (took 11 ms)
+2018-05-27 21:54:51,086 - -Dio.netty.allocator.numHeapArenas: 4
+2018-05-27 21:54:51,086 - -Dio.netty.allocator.numDirectArenas: 4
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.pageSize: 8192
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.maxOrder: 11
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.chunkSize: 16777216
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.smallCacheSize: 256
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.normalCacheSize: 64
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-05-27 21:54:51,087 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-05-27 21:54:51,093 - -Dio.netty.allocator.type: pooled
+2018-05-27 21:54:51,093 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-05-27 21:54:51,202 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-05-27 21:54:51,202 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2018-05-27 21:55:13,355 - Using Log4J as the default logging framework
+2018-05-27 21:55:13,373 - -Dio.netty.eventLoopThreads: 8
+2018-05-27 21:55:13,416 - java.nio.Buffer.address: available
+2018-05-27 21:55:13,416 - sun.misc.Unsafe.theUnsafe: available
+2018-05-27 21:55:13,417 - sun.misc.Unsafe.copyMemory: available
+2018-05-27 21:55:13,417 - java.nio.Bits.unaligned: true
+2018-05-27 21:55:13,417 - Platform: Windows
+2018-05-27 21:55:13,417 - Java version: 8
+2018-05-27 21:55:13,418 - -Dio.netty.noUnsafe: false
+2018-05-27 21:55:13,418 - sun.misc.Unsafe: available
+2018-05-27 21:55:13,418 - -Dio.netty.noJavassist: false
+2018-05-27 21:55:13,419 - Javassist: unavailable
+2018-05-27 21:55:13,419 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-05-27 21:55:13,419 - -Dio.netty.tmpdir: C:\Users\Zengxb\AppData\Local\Temp (java.io.tmpdir)
+2018-05-27 21:55:13,419 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-05-27 21:55:13,419 - -Dio.netty.noPreferDirect: false
+2018-05-27 21:55:13,420 - -Dio.netty.noKeySetOptimization: false
+2018-05-27 21:55:13,420 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-05-27 21:55:13,662 - -Dio.netty.processId: 10604 (auto-detected)
+2018-05-27 21:55:13,762 - -Dio.netty.machineId: c8:d3:ff:ff:fe:d3:a4:b8 (auto-detected)
+2018-05-27 21:55:13,764 - -Dio.netty.initialSeedUniquifier: 0x6c7b6c0e000569ac (took 16 ms)
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.numHeapArenas: 4
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.numDirectArenas: 4
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.pageSize: 8192
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.maxOrder: 11
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.chunkSize: 16777216
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.smallCacheSize: 256
+2018-05-27 21:55:13,807 - -Dio.netty.allocator.normalCacheSize: 64
+2018-05-27 21:55:13,808 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-05-27 21:55:13,808 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-05-27 21:55:13,813 - -Dio.netty.allocator.type: pooled
+2018-05-27 21:55:13,813 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-05-27 21:55:13,855 - -Dio.netty.leakDetectionLevel: simple
+2018-05-27 21:55:13,860 - -Dio.netty.recycler.maxCapacity: 262144
+2018-05-27 21:55:13,905 - -Dio.netty.leakDetectionLevel: simple
+2018-05-27 21:55:13,907 - -Dio.netty.recycler.maxCapacity: 262144
+2018-05-27 22:03:01,828 - Using Log4J as the default logging framework
+2018-05-27 22:03:01,843 - -Dio.netty.eventLoopThreads: 8
+2018-05-27 22:03:01,916 - java.nio.Buffer.address: available
+2018-05-27 22:03:01,917 - sun.misc.Unsafe.theUnsafe: available
+2018-05-27 22:03:01,918 - sun.misc.Unsafe.copyMemory: available
+2018-05-27 22:03:01,919 - java.nio.Bits.unaligned: true
+2018-05-27 22:03:01,926 - Platform: Windows
+2018-05-27 22:03:01,932 - Java version: 8
+2018-05-27 22:03:01,932 - -Dio.netty.noUnsafe: false
+2018-05-27 22:03:01,932 - sun.misc.Unsafe: available
+2018-05-27 22:03:01,933 - -Dio.netty.noJavassist: false
+2018-05-27 22:03:01,935 - Javassist: unavailable
+2018-05-27 22:03:01,935 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-05-27 22:03:01,936 - -Dio.netty.tmpdir: C:\Users\Zengxb\AppData\Local\Temp (java.io.tmpdir)
+2018-05-27 22:03:01,936 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-05-27 22:03:01,939 - -Dio.netty.noPreferDirect: false
+2018-05-27 22:03:01,952 - -Dio.netty.noKeySetOptimization: false
+2018-05-27 22:03:01,952 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-05-27 22:03:02,272 - -Dio.netty.processId: 8408 (auto-detected)
+2018-05-27 22:03:02,383 - -Dio.netty.machineId: c8:d3:ff:ff:fe:d3:a4:b8 (auto-detected)
+2018-05-27 22:03:02,385 - -Dio.netty.initialSeedUniquifier: 0xd4ec77527e29881c (took 19 ms)
+2018-05-27 22:03:02,424 - -Dio.netty.allocator.numHeapArenas: 4
+2018-05-27 22:03:02,424 - -Dio.netty.allocator.numDirectArenas: 4
+2018-05-27 22:03:02,424 - -Dio.netty.allocator.pageSize: 8192
+2018-05-27 22:03:02,424 - -Dio.netty.allocator.maxOrder: 11
+2018-05-27 22:03:02,424 - -Dio.netty.allocator.chunkSize: 16777216
+2018-05-27 22:03:02,425 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-05-27 22:03:02,425 - -Dio.netty.allocator.smallCacheSize: 256
+2018-05-27 22:03:02,425 - -Dio.netty.allocator.normalCacheSize: 64
+2018-05-27 22:03:02,426 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-05-27 22:03:02,426 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-05-27 22:03:02,432 - -Dio.netty.allocator.type: pooled
+2018-05-27 22:03:02,433 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-05-27 22:03:02,516 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-05-27 22:03:02,516 - \proc\sys\net\core\somaxconn: 200 (non-existent)
