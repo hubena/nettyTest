@@ -1,4 +1,6 @@
 package com.hubena.server;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -11,11 +13,13 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
-public class ServerHandler  extends ChannelHandlerAdapter {  
+public class ServerHandler  extends ChannelHandlerAdapter {
+	private static final Logger logger = LoggerFactory.getLogger(ServerHandler.class);
   
     @Override  
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {  
     		System.out.println("---------收到请求----------");
+    		logger.debug("ServerHandler启动了");
     		
             ByteBuf buf = (ByteBuf)msg;  
             byte[] data = new byte[buf.readableBytes()];  

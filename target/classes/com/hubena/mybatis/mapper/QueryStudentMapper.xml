@@ -3,21 +3,24 @@
 <mapper namespace="com.hubena.mybatis.interfaces.QueryStudentMapper">
 
 	<sql id="where">
-		<if test="requestStudent.id!=null and requestStudent.id!=''">
-			and tb.id = #{requestStudent.id}
-		</if>
-		<if test="requestStudent.name!=null and requestStudent.name!=''">
-			and tb.name = #{requestStudent.name}
-		</if>
-		<if test="requestStudent.age!=null and requestStudent.age!=''">
-			and tb.age = #{requestStudent.age}
-		</if>
-		<if test="requestStudent.height!=null and requestStudent.height!=''">
-			and tb.height = #{requestStudent.height}
+		<if test="requestStudent!=null">
+			<if test="requestStudent.id!=null and requestStudent.id!=''">
+				and tb.id = #{requestStudent.id}
+			</if>
+	
+			<if test="requestStudent.name!=null and requestStudent.name!=''">
+				and tb.name = #{requestStudent.name}
+			</if>
+			<if test="requestStudent.age!=null and requestStudent.age!=''">
+				and tb.age = #{requestStudent.age}
+			</if>
+			<if test="requestStudent.height!=null and requestStudent.height!=''">
+				and tb.height = #{requestStudent.height}
+			</if>
 		</if>
 	</sql>
 
-	<select id="findList" resultType="studentInfo" >
+	<select id="findList" resultType="com.hubena.entity.StudentInfo" >
 		select * from test1.student as tb where 1=1 
 		<include refid="where"></include> 
 		order by ${queryPageData.sortField} ${queryPageData.sortType} 
@@ -33,6 +36,11 @@
 		where 1=1
 		<include refid="where"></include>
 	</select>
+	
+	<select id="findAll" resultType="com.hubena.entity.StudentInfo" >
+		select * from test1.student 
+	</select>
+
 	
 <!-- 	<select id="findList" resultType="com.threeweidu.pay.entity.AgentDeductRecord" >
 		SELECT *

@@ -1,7 +1,6 @@
 package com.hubena.client;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 
 import com.hubena.entity.RequestStudent;
 import com.hubena.util.JsonUtils;
@@ -16,13 +15,13 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
 public class Client {
-	private static final Logger logger = LoggerFactory.getLogger(Client.class);
+	private static final Logger logger = Logger.getLogger(Client.class);
     public static void main(String[] args) throws InterruptedException {
-    	logger.debug("测试slf4j----------------");
+    	logger.debug("Client log4j========================");
     	//准备json测试数据
     	RequestStudent student = new RequestStudent();
     	student.setName("小明");
-    	student.setAge(17);
+    	student.setAge(30);
     	
     	String json = JsonUtils.objectToJsonString(student);
     	System.out.println("json:" + json);

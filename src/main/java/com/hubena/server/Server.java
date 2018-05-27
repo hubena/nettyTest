@@ -9,7 +9,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 public class Server {  
-  
+    
     private int port;  
   
     public Server(int port) {  

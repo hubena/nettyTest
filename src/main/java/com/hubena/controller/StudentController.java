@@ -26,7 +26,7 @@ public class StudentController {
 	
 	public PageData queryList(ChannelHandlerContext ctx, String jsonString){
 		PageData pageData = null;
-		QueryPageData queryPageData= new QueryPageData(10L, 15L, "id, name, age", QueryPageData.SORTTYPE_ASC);
+		QueryPageData queryPageData= new QueryPageData(2L, 15L, "id", QueryPageData.SORTTYPE_ASC);
 		RequestStudent requestStudent = JsonUtils.parseToObject(jsonString, RequestStudent.class);
 		try {
 			pageData = pageListTestService.findList(requestStudent, queryPageData);

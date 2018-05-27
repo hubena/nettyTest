@@ -124,11 +124,7 @@ public class QueryPageData implements Serializable{
 	}
 	
 	public Long getEndRow() {
-		if (!StringUtils.isEmpty(this.pageNo) && !StringUtils.isEmpty(this.pageSize)) {
-			this.endRow = this.pageNo * this.pageSize;
-		} else {
-			this.endRow = 10l;
-		}
+		this.endRow = 10l;
 		return endRow;
 	}
 

@@ -11,6 +11,8 @@ import org.springframework.stereotype.Repository;
 import com.hubena.entity.QueryPageData;
 import com.hubena.entity.RequestStudent;
 import com.hubena.entity.StudentInfo;
+import com.threeweidu.entity.AgentIPWhiteRecord;
+import com.threeweidu.view.req.page.Page;
 
 /**
  * 
@@ -24,10 +26,20 @@ public interface QueryStudentMapper {
 	 * @param requestStudent
 	 * @param queryPageData
 	 * @return
-	 */
-	public List<StudentInfo> findList(@Param("requestStudent") RequestStudent requestStudent, @Param("queryPageData") QueryPageData queryPageData);
+	 */									
+	public List<StudentInfo> findList(@Param(value = "requestStudent") RequestStudent requestStudent, @Param(value = "queryPageData") QueryPageData queryPageData);
 	
+	/**
+	 * @return
+	 */
 	public Long findListCount();
+	
+	/**
+	 * @return
+	 */
+	public List<StudentInfo> findAll();
+	
+	
 	
 	
 	
